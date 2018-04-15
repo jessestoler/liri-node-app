@@ -5,3 +5,5 @@ do-what-it-says = will read a request from a .txt file
 movie-this = will return information regarding a movie of your choice
 my-tweets = will return information regarding your last 20 tweets
 spotify-this-song= will return information regarding a song of your choice
+
+<h2>Setup</h2>
