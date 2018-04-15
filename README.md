@@ -11,7 +11,7 @@ Run npm init and npm install from the root directory of your project.<br>
 
 You will also need to attain your own keys from both Spotify and Twitter.<br>
 
-> Create a .env file in the root, and add your keys in the format below. No quotes around the keys.
+Create a .env file in the root, and add your keys in the format below. No quotes around the keys.
 
 
 # Spotify API keys
