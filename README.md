@@ -7,23 +7,25 @@ my-tweets = will return information regarding your last 20 tweets<br>
 spotify-this-song= will return information regarding a song of your choice<br>
 
 # setup
-<hr>Run <span style="background-color: gray">npm init</span> and <span style="background-color: gray">npm install</span> from the root directory of your project.<br>
+Run npm init and npm install from the root directory of your project.<br>
 
-Create a .env file in the root, and add your keys in this format. No quotes around the keys.
+You will also need to attain your own keys from both Spotify and Twitter.<br>
 
-<span style="background-color: gray">
+> Create a .env file in the root, and add your keys in the format below. No quotes around the keys.
+
+
 # Spotify API keys
 
-SPOTIFY_ID=your-spotify-id
-SPOTIFY_SECRET=your-spotify-secret
+SPOTIFY_ID=your-spotify-id<br>
+SPOTIFY_SECRET=your-spotify-secret<br>
 
 # Twitter API keys
 
-TWITTER_CONSUMER_KEY=your-twitter-consumer-key
-TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret
-TWITTER_ACCESS_TOKEN_KEY=your-access-token-key
-TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
-</span>
+TWITTER_CONSUMER_KEY=your-twitter-consumer-key<br>
+TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret<br>
+TWITTER_ACCESS_TOKEN_KEY=your-access-token-key<br>
+TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret<br>
+
 
 
 
