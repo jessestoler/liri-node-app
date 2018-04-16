@@ -22,9 +22,9 @@ function backstreet() {
 
       if (data[1] ==  "o" && data.length > 10) {
 
-        let carson = data.replace("movie-this ", "");
-        let ben = "http://www.omdbapi.com/?apikey=f898a1b9&t=" + carson;
-        request(ben, function(error, response, body) {
+        let movieStuff = data.replace("movie-this ", "");
+        let filmStuff = "http://www.omdbapi.com/?apikey=f898a1b9&t=" + movieStuff;
+        request(filmStuff, function(error, response, body) {
           console.log(JSON.parse(body).Title);
           console.log(JSON.parse(body).Year);
           console.log(JSON.parse(body).Ratings[0].Source + ": " + JSON.parse(body).Ratings[0].Value);
@@ -50,8 +50,8 @@ function backstreet() {
       }
 
       if (data[1] ==  "p") {
-        let pacers = data.replace("spotify-this-song ", "");
-        spotify.search({ type: 'track', query: pacers }, function(err, data) {
+        let note = data.replace("spotify-this-song ", "");
+        spotify.search({ type: 'track', query: note }, function(err, data) {
           if (err) {
             return console.log('Error occurred: ' + err);
            
